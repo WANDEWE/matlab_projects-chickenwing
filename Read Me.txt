@@ -1,0 +1,26 @@
+# Automatic Coin Counter Using Image Processing (MATLAB)
+
+This MATLAB project detects and counts coins in an image using image processing techniques.
+
+## Usage
+
+1. Place an image of coins (e.g., `coins.jpg`) in the same folder.
+2. Run `automatic_coin_counter.m`.
+
+## Current Issue
+
+The output is not as expected (coins not being detected/count is wrong).  
+**Please help troubleshoot the code. Any improvements or suggestions are welcome!**
+
+## How It Works
+
+- Image is loaded and preprocessed.
+- Image is segmented to binary.
+- Circles detected using `imfindcircles` or `regionprops`.
+- Number of coins is displayed.
+
+---
+
+**To contribute:**  
+- Fork the repo
+- Clone it, make changes, and submit a pull request or open an issue.
